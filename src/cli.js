@@ -8,8 +8,7 @@ const askAndGetResponse = (question) => {
 const greet = () => {
   const name = askAndGetResponse('May I have your name? ');
 
-  console.log(`Hello, ${name}!`)
+  console.log(`Hello, ${name}!`);
 };
 
-export {greet};
-
+export default greet;
