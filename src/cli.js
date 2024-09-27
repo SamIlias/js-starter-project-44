@@ -6,7 +6,7 @@ const askAndGetResponse = (question) => {
 };
 
 const print = (value) => {
-  console.log(value)
+  console.log(value);
 };
 
-export {print, askAndGetResponse};
+export { print, askAndGetResponse };
