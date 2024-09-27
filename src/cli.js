@@ -5,10 +5,8 @@ const askAndGetResponse = (question) => {
   return result;
 };
 
-const greet = () => {
-  const name = askAndGetResponse('May I have your name? ');
-
-  console.log(`Hello, ${name}!`);
+const print = (value) => {
+  console.log(value)
 };
 
-export default greet;
+export {print, askAndGetResponse};

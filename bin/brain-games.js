@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import * as cli from '../src/cli.js';
+import * as dialogue from '../src/dialogue.js';
 
-const greeting = 'Welcome to the Brain Games!';
-console.log(greeting);
+dialogue.printPrimaryGreeting();
 
-cli.greet();
+const userName = dialogue.requestAndGetUserName();
+dialogue.printUserGreeting(userName);
