@@ -13,8 +13,14 @@ brain-calc:
 brain-gcd: 
 	node bin/brain-gcd.js
 
+brain-progression: 
+	node bin/brain-progression.js
+
 publish:
 	npm publish --dry-run
 
 lint:
 	npx eslint .
+
+lint-fix:
+	npx eslint --fix .

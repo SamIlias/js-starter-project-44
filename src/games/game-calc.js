@@ -5,18 +5,18 @@ const GAME_DESCRIPTION = 'What is the result of the expression?';
 const MAX_NUM = 100;
 const operators = ['+', '-', '*'];
 
-const getRandomOperator = (operators) => {
-  const num = operators.length - 1;
+const getRandomElement = (coll) => {
+  const num = coll.length;
   const randomIndex = math.getRandomInt(num);
 
-  return operators[randomIndex];
+  return coll[randomIndex];
 };
 
 const getExpression = () => {
   const a = math.getRandomInt(MAX_NUM);
   const b = math.getRandomInt(MAX_NUM);
-  const oper = getRandomOperator(operators);
-  
+  const oper = getRandomElement(operators);
+
   const result = `${a} ${oper} ${b}`;
   return result;
 };
@@ -29,16 +29,16 @@ const getExpectedAnswer = (expression) => {
   let res;
 
   switch (operator) {
-    case '+' : 
+    case '+':
       res = a + b;
       break;
-    case '-' :
+    case '-':
       res = a - b;
       break;
-    case '*' :
+    case '*':
       res = a * b;
       break;
-    default :
+    default:
       return 'Invalid operator';
   }
 

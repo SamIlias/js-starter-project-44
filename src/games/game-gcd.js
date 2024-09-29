@@ -7,15 +7,15 @@ const MAX_NUM = 100;
 const getExpression = () => {
   const a = math.getRandomInt(MAX_NUM);
   const b = math.getRandomInt(MAX_NUM);
-  
+
   const result = `${a} ${b}`;
   return result;
 };
 
 const getExpectedAnswer = (expression) => {
   const coll = expression.split(' ');
-  let a = Number(coll[0]);
-  let b = Number(coll[1]);
+  const a = Number(coll[0]);
+  const b = Number(coll[1]);
 
   const res = math.gcd(a, b);
   return res.toString();
