@@ -9,3 +9,6 @@ https://asciinema.org/a/MqqMtMTBOylmMLBwaQnSyzH6X
 
 ### Демонстрация игры brain-calc:
 https://asciinema.org/a/fAC2cwmpnqC1Rs8dJLUlPIMic
+
+### Демонстрация игры brain-gcd:
+https://asciinema.org/a/ckrD4kqFL0IS7lyD0H9azUlrO

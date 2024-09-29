@@ -12,7 +12,7 @@ const getRandomOperator = (operators) => {
   return operators[randomIndex];
 };
 
-const getRandomExpression = () => {
+const getExpression = () => {
   const a = math.getRandomInt(MAX_NUM);
   const b = math.getRandomInt(MAX_NUM);
   const oper = getRandomOperator(operators);
@@ -46,7 +46,7 @@ const getExpectedAnswer = (expression) => {
 };
 
 const runGame = () => {
-  app(GAME_DESCRIPTION, getExpectedAnswer, getRandomExpression);
+  app(GAME_DESCRIPTION, getExpectedAnswer, getExpression);
 };
 
 export default runGame;
