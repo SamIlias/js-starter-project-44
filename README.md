@@ -15,3 +15,7 @@ https://asciinema.org/a/ckrD4kqFL0IS7lyD0H9azUlrO
 
 ### Демонстрация игры brain-progression:
 https://asciinema.org/a/COEp5EcPHcybLOzXerHMzGebV
+
+### Демонстрация игры brain-prime:
+https://asciinema.org/a/vaW0oBfFCUpaniqXw9UcNHmwc
+

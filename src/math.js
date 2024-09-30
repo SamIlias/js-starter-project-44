@@ -2,6 +2,16 @@ export const getRandomInt = (maxNum) => Math.floor(Math.random() * maxNum);
 
 export const isEven = (num) => num % 2 === 0;
 
+export const isPrime = (num) => {
+  for (let i = 2; i < num; i += 1) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+
+  return true;
+};
+
 export const gcd = (a, b) => {
   let num1 = a;
   let num2 = b;
